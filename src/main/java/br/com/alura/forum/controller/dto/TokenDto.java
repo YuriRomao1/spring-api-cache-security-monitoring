@@ -2,12 +2,12 @@ package br.com.alura.forum.controller.dto;
 
 public class TokenDto {
     private String token;
-    private String bearer;
+    private String tipo;
 
-    public TokenDto(String token, String bearer) {
-
+    public TokenDto(String token, String tipo) {
         this.token = token;
-        this.bearer = bearer;
+        this.tipo = tipo;
+
 
     }
 
@@ -19,11 +19,11 @@ public class TokenDto {
         this.token = token;
     }
 
-    public String getBearer() {
-        return bearer;
+    public String getTipo() {
+        return tipo;
     }
 
-    public void setBearer(String bearer) {
-        this.bearer = bearer;
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 }
