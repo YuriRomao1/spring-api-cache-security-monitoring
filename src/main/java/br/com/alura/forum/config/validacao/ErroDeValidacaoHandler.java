@@ -3,6 +3,7 @@ package br.com.alura.forum.config.validacao;
 import java.util.ArrayList;
 import java.util.List;
 
+import br.com.alura.forum.config.validacao.ErroDeFormularioDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
 import org.springframework.context.i18n.LocaleContextHolder;
